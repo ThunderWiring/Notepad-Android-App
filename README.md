@@ -15,3 +15,5 @@ Works offline
 
 https://play.google.com/store/apps/details?id=com.thunderwiring.kitaba
 
+# Screen Shots
+![](https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131058.png "Screen 1")
