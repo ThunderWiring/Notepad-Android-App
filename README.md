@@ -16,9 +16,16 @@ Works offline
 https://play.google.com/store/apps/details?id=com.thunderwiring.kitaba
 
 # Screen Shots
-<img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131058.png" width="200" height="400">
-<img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131119.png" width="200" height="400">
-<img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131205.png" width="200" height="400">
+<table>
+ <tr>
+    <td valign="top"><img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131058.png" width="200" height="400"></td>
+    <td valign="top"><img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131119.png" width="200" height="400"></td>
+    <td valign="top"><img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131205.png" width="200" height="400"></td>
+  </tr>
+</table>
+
+
+
 <img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131209.png" width="200" height="400">
 <img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131216.png" width="200" height="400">
 <img src="https://github.com/ThunderWiring/Notepad-Android-App/blob/master/screenshots/Screenshot_20191227-131517.png" width="200" height="400">
