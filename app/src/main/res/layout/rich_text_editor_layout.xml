@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rich_editor_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbar_background"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/toolbar_button_padding"
+        android:layoutDirection="locale"
+        >
+
+        <EditText
+        android:paddingStart="@dimen/container_padding"
+            android:id="@+id/note_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="@string/note_title_placeholder"
+            android:maxLines="1" />
+
+        <ImageView
+            android:paddingEnd="@dimen/container_padding"
+            android:id="@+id/title_dismiss_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/note_title"
+            android:layout_alignEnd="@+id/note_title"
+            android:layout_alignBottom="@+id/note_title"
+            android:src="@drawable/cancel_dark"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/web_view_editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

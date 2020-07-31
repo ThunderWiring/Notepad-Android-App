@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRipple"
+    android:layoutDirection="locale"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/action_bar_padding"
+    android:paddingRight="@dimen/action_bar_padding">
+
+<ImageButton
+android:id="@+id/back_button"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:padding="@dimen/toolbar_button_padding"
+android:src="@drawable/back_dark" />
+
+<SearchView
+android:id="@+id/note_editor_search"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:queryHint="@string/note_search_hint"
+android:textDirection="locale" />
+
+<ImageButton
+android:id="@+id/add_image"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:padding="@dimen/toolbar_button_padding"
+android:src="@drawable/add_image_dark" />
+
+<ImageButton
+android:id="@+id/undo"
+style="@style/ActionBarButtonWhite"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:padding="@dimen/toolbar_button_padding"
+android:src="@drawable/undo_dark" />
+
+<ImageButton
+android:id="@+id/redo"
+style="@style/ActionBarButtonWhite"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:padding="@dimen/toolbar_button_padding"
+android:src="@drawable/redo_dark" />
+
+    </LinearLayout>

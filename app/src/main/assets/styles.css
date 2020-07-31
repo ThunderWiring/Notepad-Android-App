@@ -1,0 +1,36 @@
+
+@charset "UTF-8";
+
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+html {
+  height: 100%;
+}
+
+.note {
+   height: 100vh;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+body {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#editor {
+  display: table-cell;
+
+  -webkit-user-select: auto !important;
+  -webkit-user-modify: read-write !important;
+
+  outline: 0px solid transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+

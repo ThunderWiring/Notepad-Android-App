@@ -1,0 +1,63 @@
+<resources>
+    <string name="facebook_app_id">663577001114542</string>
+    <string name="fb_login_protocol_scheme">fb663577001114542</string>
+
+    <string name="app_name">Notepad</string>
+    <string name="note_editor_actionbar_title">Composing</string>
+    <string name="note_title_placeholder">No Title</string>
+    <string name="last_edit">Modified: %s</string>
+    <string name="word_count">Words: %d</string>
+    <string name="note_search_hint">Search note</string>
+    <string name="note_library_search_hint">Search library</string>
+
+    <string name="notes_library_tabs_all">All</string>
+    <string name="notes_library_tabs_folders">Folders</string>
+
+    <string name="alert_dialog_negative_button">Cancel</string>
+
+    <string name="delete_notes_alert_message">Delete Notes? This action cannot be undone</string>
+    <string name="delete_notes_alert_positive_button">Delete</string>
+    <string name="delete_notes_alert_negative_button">Cancel</string>
+    <string name="note_entry_menu_delete">Delete</string>
+    <string name="note_entry_menu_move_to_folder">Move to folder</string>
+    <string name="move_note_dialog_title">Move note to folder</string>
+    <string name="move_note_dialog_positive_button">Move</string>
+
+    <string name="delete_folder_shallow_alert_message">Delete folder? Notes inside the folder will
+        not be deleted</string>
+    <string name="delete_folder_deep_alert_message">Delete folder? Notes inside the folder will
+        all be deleted</string>
+    <string name="delete_folder_shallow_alert_positive_button">Delete</string>
+    <string name="delete_folder_shallow_alert_negative_button">Cancel</string>
+
+    <string name="search_result_empty_state_title">No matching results found</string>
+    <string name="notes_library_empty_state_title">No notes</string>
+    <string name="notes_library_empty_state_text">The notes you add will appear here</string>
+
+    <string name="notes_library_folders_empty_state_title">No folders</string>
+    <string name="notes_library_folders_empty_state_text">The folders you add will appear
+        here</string>
+
+    <!-- action bar menu-->
+    <string name="actionbar_setting_sort_time">Sort by most recent</string>
+    <string name="actionbar_setting_sort_word_count">Sort by word count</string>
+
+    <!--new folder dialog strings-->
+    <string name="add_folder_dialog_message">New folder name</string>
+    <string name="add_folder_dialog_positive_button">Create</string>
+    <string name="add_folder_dialog_negative_button">Cancel</string>
+    <string name="add_folder_dialog_text_input_placeholder">New Folder</string>
+    <string name="add_folder_dialog_empty_name_error">Must type a name</string>
+
+    <!--folder item view-->
+    <string name="folder_item_view_desc">%d Notes</string>
+    <string name="note_entry_menu_shallow_delete">delete folder</string>
+    <string name="note_entry_menu_deep_delete">delete folder and notes</string>
+    <string name="note_entry_menu_rename">rename</string>
+    <string name="rename_folder_alert_title">rename folder</string>
+    <string name="rename_folder_alert_positive_button">Rename</string>
+
+    <!--folder content view-->
+    <string name="folder_empty_state_title">No Notes</string>
+    <string name="folder_empty_state_text">Add notes to this folder</string>
+</resources>

@@ -1,0 +1,16 @@
+Short desc.
+
+Notepad app with simple UX and modern material design
+
+Full desc.
+
+Provides better experience to write quick notes and lists of items, as well as 
+inlineing images.
+
+Features:
+* Auto saves your notes
+* Inline image in notes
+* Search text within the note
+* Search for notes
+* Create folder to organize the notes.
+

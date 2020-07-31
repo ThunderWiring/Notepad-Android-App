@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRipple"
+    android:paddingLeft="@dimen/action_bar_padding"
+    android:paddingRight="@dimen/action_bar_padding">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/ActionBarButtonWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/action_bar_control_padding"
+        android:src="@drawable/back_dark" />
+
+    <ImageButton
+        android:id="@+id/delete_notes"
+        style="@style/ActionBarButtonWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/action_bar_control_padding"
+        android:src="@drawable/delete_dark" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <SearchView
+        android:id="@+id/notes_library_search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/action_bar_control_padding"
+        android:queryHint="@string/note_library_search_hint"
+        android:textDirection="locale" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        style="@style/ActionBarButtonWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/action_bar_control_padding"
+        android:src="@drawable/menu_dots_dark" />
+</LinearLayout>

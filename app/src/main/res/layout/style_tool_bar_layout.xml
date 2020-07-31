@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tool"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/bold_format_dark" />
+
+        <ImageView
+            android:id="@+id/italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/italic_format_dark" />
+
+        <ImageView
+            android:id="@+id/underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/underline_format_dark" />
+
+
+        <ImageView
+            android:id="@+id/bullet_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/bullet_list_dark" />
+
+        <ImageView
+            android:id="@+id/number_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/number_list_dark" />
+
+        <ImageView
+            android:id="@+id/strike_through"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/strike_through_dark" />
+
+        <ImageButton
+            android:id="@+id/ltr"
+            style="@style/ActionBarButtonWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/ltr_dark" />
+
+        <ImageButton
+            android:id="@+id/rtl"
+            style="@style/ActionBarButtonWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/toolbar_button_padding"
+            android:src="@drawable/rtl_dark" />
+    </LinearLayout>
+</HorizontalScrollView>
